@@ -35,7 +35,7 @@
 - setState를 사용할 수 없으며 DOM에 접근 x
 
 ### getDerivedStateFromProps()
-- props에 있는 값을 state에 동기화 시킬 때 사용하는 메서드
+- **props**에 있는 값을 **state**에 동기화 시킬 때 사용하는 메서드
 
 ### render() 
 - UI를 렌더링하는 메서드
@@ -43,3 +43,29 @@
 ### componentDidMount() 
 - 컴포넌트가 웹 브라우저 상에 나타난 후 즉 첫 렌더링을 마친 후에 호출하는 메서드
 - 라이브러리나 프레임워크의 **함수를 호출**하거나 **이벤트 등록, setTimeout, setInterval, setState**와 같은 ```비동기 작업```을 처리
+
+## 업데이트
+- props나 state가 변경되면 렌더가 진행되며 순서대로 호출된다.
+
+### getDerivedStateFromProps()
+- 마운트 과정에서 호출되며, 업데이트가 시작하기 전에도 호출됨
+- props의 변화에 따라 state 값에도 변화를 주고 싶은 경우에 사용
+
+### shouldComponentUpdate()
+- props또는 state를 변경했을 때, 리렌더링을 시작할지 여부를 지정하는 메서드
+
+### render()
+- 컴포넌트 리렌더링  
+
+### getSnapshotBeforeUpdate()
+- 컴포넌트 변화를 DOM에 반영하기 바로 직전에 호출하는 메서드
+
+### componentDidUpdate()
+- 컴포넌트 업데이트 작업이 끝난 후 호출하는 메서드.
+
+## 삭제
+- 컴포넌트를 DOM에서 제거하는 과정
+
+### componentWillUnmount()
+- 컴포넌트를 DOM에서 제거할 때 실행
+- 이후에 컴포넌트는 다시 렌더링 x, setState()를 호출 x
