@@ -5,7 +5,7 @@
 - [프론트 전반](#프론트-전반)
 - [자바스크립트](#자바스크립트)
 - [네트워크](#네트워크)
-- [리액트](#리액트)
+- [react](#react)
 
 ## 프론트 전반
 - [SSR과 CSR](Note/front/SSR-CSR.md)
@@ -24,6 +24,6 @@
 - [https](Note/network/https.md)
 - [token](Note/network/토큰.md)
 
-## 리액트
+## react
 - [hook과 생명주기](Note/react/hook과-생명주기.md)
 - [redux](Note/react/redux.md)
