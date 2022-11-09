@@ -11,19 +11,19 @@
 - [SSR과 CSR](Note/front/SSR-CSR.md)
 
 ## 자바스크립트
-- [동기와 비동기](Note/javascript/동기와-비동기.md)
-- [스코프](Note/javascript/스코프.md)
-- [실행 컨텍스트](Note/javascript/실행-컨텍스트.md)
-- [원시값](Note/javascript/원시값.md)
-- [화살표함수와 일반함수](Note/javascript/화살표함수와-일반함수.md)
+- [동기와 비동기](Note/javascript/synchronous-asynchronous.md)
+- [스코프](Note/javascript/scope.md)
+- [실행 컨텍스트](Note/javascript/context.md)
+- [원시값](Note/javascript/primitive.md)
+- [화살표함수와 일반함수](Note/javascript/binding.md)
 
 ## 네트워크
-- [URL을 입력하고 벌어지는 일](Note/network/URL을-입력하고-벌어지는-일.md)
+- [URL을 입력하고 벌어지는 일](Note/network/url.md)
 - [cookie와 session](Note/network/cookie-session.md)
 - [http](Note/network/http.md)
 - [https](Note/network/https.md)
-- [token](Note/network/토큰.md)
+- [token](Note/network/token.md)
 
 ## React
-- [hook과 생명주기](Note/react/hook과-생명주기.md)
+- [hook과 생명주기](Note/react/hook_and_lifecycle.md)
 - [redux](Note/react/redux.md)
