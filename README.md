@@ -24,6 +24,6 @@
 - [https](Note/network/https.md)
 - [token](Note/network/토큰.md)
 
-## react
+## React
 - [hook과 생명주기](Note/react/hook과-생명주기.md)
 - [redux](Note/react/redux.md)
