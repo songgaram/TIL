@@ -9,6 +9,29 @@
 클라이언트가 서버에게 리소스를 요청한 후 응답을 받으면 연결을 끊어버리는 특징이다. 연결을 유지하게 되면 서버에 많은 부담을 줄 수 있기 때문.<br>
 이로 인해 서버의 부담을 줄일 수 있지만, 리소스를 요청할 때마다 연결해야 하는 오버헤드 비용이 발생. 따라서 요청 헤더의 ```Connection: keep-alive``` 속성으로 지속적 연결 상태(Persistent connection)를 유지할 수 있다. HTTP 1.1 부턴 지속적 연결 상태가 기본이며 이를 해제하기 위해선 명시적으로 요청 헤더를 수정해야 한다.
 
+## HTTP Request 구조
+- Request Line
+  - HTTP 메서드
+  - 요청 타겟 : 어디로 보내는지
+  - 버전
+ - Header
+   - 호스트 url
+   - 클라이언트 정보
+   - authorization
+ - Body
+ 
+## HTTP Response 구조
+- Status Line
+  - 버전
+  - 상태코드
+  - 응답상태
+ - Header
+   - Date: 응답온 일시이다.
+   - Content-Type: 응답 데이터의 타입이다.
+ - Body: 요청에 대한 응답 값
+ 
+  
+
 ## HTTP 요청 메서드
 - GET : 존재하는 자원에 대한 요청
 - POST : 새로운 자원을 생성
