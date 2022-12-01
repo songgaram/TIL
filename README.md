@@ -16,6 +16,7 @@
 - [실행 컨텍스트](Note/javascript/context.md)
 - [원시값](Note/javascript/primitive.md)
 - [화살표함수와 일반함수](Note/javascript/binding.md)
+- [변수와 타입](Note/javascript/variable.md)
 
 ## 네트워크
 - [URL을 입력하고 벌어지는 일](Note/network/url.md)
@@ -27,3 +28,4 @@
 ## React
 - [hook과 생명주기](Note/react/hook_and_lifecycle.md)
 - [redux](Note/react/redux.md)
+- [react 질문](Note/react/react.md)
