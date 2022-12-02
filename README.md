@@ -18,6 +18,8 @@
 - [원시값](Note/javascript/primitive.md)
 - [화살표함수와 일반함수](Note/javascript/binding.md)
 - [변수와 타입](Note/javascript/variable.md)
+- [script 태그 async/defer](Note/javascript/script-tag-async-defer.md)
+
 
 ## 네트워크
 - [URL을 입력하고 벌어지는 일](Note/network/url.md)
