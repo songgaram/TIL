@@ -6,6 +6,7 @@
 - [자바스크립트](#자바스크립트)
 - [네트워크](#네트워크)
 - [react](#react)
+- [OS](#os)
 
 ## 프론트 전반
 - [SSR과 CSR](Note/front/SSR-CSR.md)
@@ -27,6 +28,9 @@
 - [http](Note/network/http.md)
 - [https](Note/network/https.md)
 - [token](Note/network/token.md)
+
+## os
+- [멀티태스킹-멀티스레드-](Note/os/process.md)
 
 ## React
 - [hook과 생명주기](Note/react/hook_and_lifecycle.md)
