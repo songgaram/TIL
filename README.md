@@ -30,7 +30,7 @@
 - [token](Note/network/token.md)
 
 ## os
-- [멀티태스킹-멀티스레드-](Note/os/process.md)
+- [멀티태스킹-멀티스레드-멀티프로세싱](Note/os/process.md)
 
 ## React
 - [hook과 생명주기](Note/react/hook_and_lifecycle.md)
