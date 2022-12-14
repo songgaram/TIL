@@ -20,6 +20,7 @@
 - [화살표함수와 일반함수](Note/javascript/binding.md)
 - [변수와 타입](Note/javascript/variable.md)
 - [script 태그 async/defer](Note/javascript/script-tag-async-defer.md)
+- [클로저](Note/javascript/closure.md)
 
 
 ## 네트워크
