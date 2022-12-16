@@ -11,6 +11,7 @@
 ## 프론트 전반
 - [SSR과 CSR](Note/front/SSR-CSR.md)
 - [브라우저 렌더링](Note/front/rendering.md)
+- [웹 접근성](Note/front/web-accessibility.md)
 
 ## 자바스크립트
 - [동기와 비동기](Note/javascript/synchronous-asynchronous.md)
