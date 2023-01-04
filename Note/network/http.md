@@ -18,7 +18,7 @@
    - 호스트 url
    - 클라이언트 정보
    - authorization
- - Body
+ - Body : 실제 전송할 
  
 ## HTTP Response 구조
 - Status Line
