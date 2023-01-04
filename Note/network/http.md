@@ -11,10 +11,10 @@
 
 ## HTTP Request 구조
 - Request Line
-  - HTTP 메서드
-  - 요청 타겟 : 어디로 보내는지
-  - 버전
- - Header
+  - **HTTP 메서드**
+  - **요청 타겟** : 어디로 보내는지
+  - **버전**
+ - Header : HTTP 전송에 필요한 부가정보
    - 호스트 url
    - 클라이언트 정보
    - authorization
@@ -22,9 +22,9 @@
  
 ## HTTP Response 구조
 - Status Line
-  - 버전
-  - 상태코드
-  - 응답상태
+  - **버전**
+  - **상태코드**
+  - **응답상태**
  - Header
    - Date: 응답온 일시이다.
    - Content-Type: 응답 데이터의 타입이다.
