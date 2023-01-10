@@ -22,7 +22,7 @@
 - [변수와 타입](Note/javascript/variable.md)
 - [script 태그 async/defer](Note/javascript/script-tag-async-defer.md)
 - [클로저](Note/javascript/closure.md)
-
+- [프로미스](Note/javascript/promise.md)
 
 ## 네트워크
 - [URL을 입력하고 벌어지는 일](Note/network/url.md)
